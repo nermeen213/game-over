@@ -154,5 +154,12 @@ input #input {
  .categories-slider {
   display: none !important;
  }
+ 
+}
+@media (max-width:600px) {
+  #search-div {
+width: 450px !important;
 
+  }
+ 
 }

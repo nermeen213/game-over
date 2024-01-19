@@ -62,10 +62,10 @@ async function getData(){
        box+=`
        
        <div class="row background p-2 m-1"  >
-       <div class="col-sm-3 ">
+       <div class="col-3 ">
       <img src=${data[i].thumbnail} class="w-100 rounded-2"  alt=''/>
       </div>
-      <div class="col-sm-9">
+      <div class="col-9">
       <h6 className="fw-bolder fs-5 ">${data[i].title}</6>
       <div class="d-flex align-content-center justify-content-between mt-2 ">
       <p className="f6-6 details">${data[i].short_description.split(" ").slice(0,3).join(' ')}....</p>
