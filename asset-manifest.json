@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/game-over/static/css/main.21fef272.css",
-    "main.js": "/game-over/static/js/main.49c53897.js",
+    "main.css": "/game-over/static/css/main.d86bbbeb.css",
+    "main.js": "/game-over/static/js/main.c4c87d80.js",
     "static/media/fa-solid-900.ttf": "/game-over/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/dashboard image1.png": "/game-over/static/media/dashboard image1.0fddd1fbe0a5e0a0af93.png",
     "static/media/fa-brands-400.ttf": "/game-over/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
@@ -19,11 +19,11 @@
     "static/media/slick.ttf": "/game-over/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/game-over/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/game-over/index.html",
-    "main.21fef272.css.map": "/game-over/static/css/main.21fef272.css.map",
-    "main.49c53897.js.map": "/game-over/static/js/main.49c53897.js.map"
+    "main.d86bbbeb.css.map": "/game-over/static/css/main.d86bbbeb.css.map",
+    "main.c4c87d80.js.map": "/game-over/static/js/main.c4c87d80.js.map"
   },
   "entrypoints": [
-    "static/css/main.21fef272.css",
-    "static/js/main.49c53897.js"
+    "static/css/main.d86bbbeb.css",
+    "static/js/main.c4c87d80.js"
   ]
 }
