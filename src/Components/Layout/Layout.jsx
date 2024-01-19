@@ -18,7 +18,7 @@ export default function Layout() {
 
 
     <Navbar/>
-    <div className="container">
+    <div className="container special">
     <Outlet></Outlet>
     </div>
    

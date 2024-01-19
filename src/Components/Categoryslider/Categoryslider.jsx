@@ -11,6 +11,8 @@ import { Helmet } from 'react-helmet';
 export default function Categoryslider() {
     let Navigate=useNavigate();
    
+  
+     
     const settings = {
         dots: false,
         arrows: false,
@@ -21,6 +23,10 @@ export default function Categoryslider() {
         autoplay: true,
         autoplaySpeed:1000,
       };
+      
+    
+      
+     
     
     const [gamesData, setgamesData] = useState(null)
     const [mostGame, setmostGame] = useState(null)

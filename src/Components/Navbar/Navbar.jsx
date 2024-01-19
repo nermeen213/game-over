@@ -6,6 +6,7 @@ import { userToken } from '../Context/UserToken';
 import { allGamesContext } from '../Context/AllGamesContext';
 
 export default function Navbar() {
+  
   let container =[];
   let Navigate=useNavigate();
     let{Token ,setToken}=useContext(userToken);
@@ -47,17 +48,22 @@ function sortby(){
 async function getData(){
   let searchInput=document.getElementById('input')
   let searchDiv=document.getElementById('search-div')
+
+
+
+
+  
   searchDiv.classList.remove('d-none')
     let{data}=await allGames()
     var term =searchInput.value.toLowerCase();
     let box ='';
-    for(let i=0 ; i<data.length ;i++){
+    for(let i=0 ; i<data.length ;i++){   
       if(data[i].title.toLowerCase().includes( term)){
        box+=`
        
-       <div class="row background p-2 m-1  ">
-       <div class="col-sm-3 " >
-      <img src=${data[i].thumbnail} class="w-100 rounded-2" alt=''/>
+       <div class="row background p-2 m-1"  >
+       <div class="col-sm-3 ">
+      <img src=${data[i].thumbnail} class="w-100 rounded-2"  alt=''/>
       </div>
       <div class="col-sm-9">
       <h6 className="fw-bolder fs-5 ">${data[i].title}</6>
@@ -174,7 +180,7 @@ async function getsortgames(sort){
      
       <ul className='d-flex align-items-center mb-0 ms-auto button-ul'>
         {Token?<>
-          <li className='mx-2'onClick={()=>Logout()} >
+          <li className='mx-2 log'onClick={()=>Logout()} >
           <button className='btn  btn-outline-warning'>LogOut</button>
         </li>
         </>:<>
