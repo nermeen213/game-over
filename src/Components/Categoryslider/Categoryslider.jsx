@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import {  Link, useNavigate } from 'react-router-dom';
 import {RotatingLines} from 'react-loader-spinner'
 import { Helmet } from 'react-helmet';
+import { Audio } from 'react-loader-spinner'
 
 export default function Categoryslider() {
     let Navigate=useNavigate();
@@ -62,7 +63,7 @@ export default function Categoryslider() {
          <Helmet>
             <title>Game over</title>
         </Helmet>
-           <div className='categories-slider p-4'>
+           <div className='categories-slider p-4 text-center'>
             <h5 className='text-light pb-3 '><i className="fa-solid fa-gamepad fs-4 icon"></i> Personalized Recommendations</h5>
 
             {gamesData? <div className=''>
@@ -86,7 +87,20 @@ export default function Categoryslider() {
       
     </div>
     
-    :""}
+    :
+    <div className='w-75 d-flex justify-content-center  mx-auto '>
+        <Audio
+  height="30"
+  width="70"
+  radius="9"
+  color="yellow"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>
+
+    </div>
+    }
            
            </div>
 
